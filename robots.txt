@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ankitcc2024-dev.github.io/free-tools/sitemap.xml
