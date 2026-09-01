@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Free online tools for students, developers and everyone. Use calculators, generators, converters and useful tools for free.">
+
+    <meta name="keywords"
+        content="free online tools, percentage calculator, password generator, word counter, QR code generator, age calculator, unit converter, image resizer, JSON formatter">
+
+    <meta name="author" 
+        content="FreeTools">
+
+    <meta name="robots"
+        content="index, follow">
+
+    <meta name="theme-color"
+        content="#111827">
+
+
+    <!-- Open Graph -->
+
+    <meta property="og:title"
+        content="FreeTools - Free Online Tools">
+
+    <meta property="og:description"
+        content="Simple, fast and useful online tools — completely free.">
+
+    <meta property="og:type"
+        content="website">
+
+
+    <title>
+        FreeTools - Free Online Tools
+    </title>
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+        href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ==================================================
+         HEADER
+    =================================================== -->
+
+    <header class="hero">
+
+
+        <!-- NAVIGATION -->
+
+        <nav class="navbar">
+
+
+            <div class="logo">
+                🛠️ FreeTools
+            </div>
+
+
+            <div class="nav-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="index.html#tools">
+                    Tools
+                </a>
+
+                <a href="about.html">
+                    About
+                </a>
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+            </div>
+
+
+        </nav>
+
+
+
+        <!-- HERO -->
+
+        <div class="hero-content"
+            id="home">
+
+
+            <h1>
+                Free Online Tools
+            </h1>
+
+
+            <p>
+                Simple, fast and useful tools — completely free.
+            </p>
+
+
+            <a href="#tools"
+                class="hero-button">
+
+                Explore Tools
+
+            </a>
+
+
+        </div>
+
+
+    </header>
+
+
+
+    <!-- ==================================================
+         MAIN
+    =================================================== -->
+
+    <main>
+
+
+        <!-- SEARCH -->
+
+        <section class="search-section">
+
+
+            <h2>
+                Find a Tool
+            </h2>
+
+
+            <p>
+                Search from our collection of free online tools.
+            </p>
+
+
+            <div class="search-box">
+
+
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="🔍 Search tools..."
+                    autocomplete="off"
+                    aria-label="Search tools">
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ==================================================
+             TOOLS SECTION
+        =================================================== -->
+
+        <section class="tools-section"
+            id="tools">
+
+
+            <div class="section-heading">
+
+
+                <h2>
+                    Our Free Tools
+                </h2>
+
+
+                <p>
+                    Useful tools for students, developers and everyday users.
+                </p>
+
+
+            </div>
+
+
+
+            <div class="tools">
+
+
+
+                <!-- ==========================================
+                     PERCENTAGE CALCULATOR
+                =========================================== -->
+
+                <div class="tool-card"
+                    data-name="percentage calculator">
+
+
+                    <div class="tool-icon">
+                        🧮
+                    </div>
+
+
+                    <h3>
+                        Percentage Calculator
+                    </h3>
+
+
+                    <p>
+                        Calculate percentages quickly and easily.
+                    </p>
+
+
+                    <button
+                        onclick="openTool('percentage')">
+
+                        Open Tool
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     PASSWORD GENERATOR
+                =========================================== -->
+
+                <div class="tool-card"
+                    data-name="password generator">
+
+
+                    <div class="tool-icon">
+                        🔐
+                    </div>
+
+
+                    <h3>
+                        Password Generator
+                    </h3>
+
+
+                    <p>
+                        Generate strong and secure passwords.
+                    </p>
+
+
+                    <button
+                        onclick="openTool('password')">
+
+                        Open Tool
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     WORD COUNTER
+                =========================================== -->
+
+                <div class="tool-card"
+                    data-name="word counter">
+
+
+                    <div class="tool-icon">
+                        📝
+                    </div>
+
+
+                    <h3>
+                        Word Counter
+                    </h3>
+
+
+                    <p>
+                        Count words, characters and sentences.
+                    </p>
+
+
+                    <button
+                        onclick="openTool('word')">
+
+                        Open Tool
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     QR CODE GENERATOR
+                =========================================== -->
+
+                <div class="tool-card"
+                    data-name="qr code generator">
+
+
+                    <div class="tool-icon">
+                        📱
+                    </div>
+
+
+                    <h3>
+                        QR Code Generator
+                    </h3>
+
+
+                    <p>
+                        Create QR codes from text or links.
+                    </p>
+
+
+                    <button
+                        onclick="openTool('qr')">
+
+                        Open Tool
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     AGE CALCULATOR
+                =========================================== -->
+
+                <div class="tool-card"
+                    data-name="age calculator">
+
+
+                    <div class="tool-icon">
+                        🎂
+                    </div>
+
+
+                    <h3>
+                        Age Calculator
+                    </h3>
+
+
+                    <p>
+                        Calculate your exact age easily.
+                    </p>
+
+
+                    <button
+                        onclick="openTool('age')">
+
+                        Open Tool
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     UNIT CONVERTER
+                =========================================== -->
+
+                <div class="tool-card"
+                    data-name="unit converter">
+
+
+                    <div class="tool-icon">
+                        📏
+                    </div>
+
+
+                    <h3>
+                        Unit Converter
+                    </h3>
+
+
+                    <p>
+                        Convert different units quickly.
+                    </p>
+
+
+                    <button
+                        onclick="openTool('unit')">
+
+                        Open Tool
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     IMAGE RESIZER
+                =========================================== -->
+
+                <div class="tool-card"
+                    data-name="image resizer">
+
+
+                    <div class="tool-icon">
+                        🖼️
+                    </div>
+
+
+                    <h3>
+                        Image Resizer
+                    </h3>
+
+
+                    <p>
+                        Resize your images easily online.
+                    </p>
+
+
+                    <button
+                        onclick="openTool('image')">
+
+                        Open Tool
+
+                    </button>
+
+
+                </div>
+
+
+
+                <!-- ==========================================
+                     JSON FORMATTER
+                =========================================== -->
+
+                <div class="tool-card"
+                    data-name="json formatter">
+
+
+                    <div class="tool-icon">
+                        💻
+                    </div>
+
+
+                    <h3>
+                        JSON Formatter
+                    </h3>
+
+
+                    <p>
+                        Format JSON data and make it readable.
+                    </p>
+
+
+                    <button
+                        onclick="openTool('json')">
+
+                        Open Tool
+
+                    </button>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- NO SEARCH RESULTS -->
+
+            <div id="noResults"
+                class="no-results">
+
+
+                <h3>
+                    😕 No tools found
+                </h3>
+
+
+                <p>
+                    Try searching with another keyword.
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- ==================================================
+             ABOUT PREVIEW
+        =================================================== -->
+
+        <section class="about-section">
+
+
+            <h2>
+                About FreeTools
+            </h2>
+
+
+            <p>
+                FreeTools is a collection of simple and useful
+                online tools designed to make everyday digital
+                tasks easier.
+            </p>
+
+
+            <p>
+                We are building useful calculators, generators,
+                converters and developer utilities that work
+                directly in your browser.
+            </p>
+
+
+            <a href="about.html"
+                class="hero-button"
+                style="margin-top:20px;">
+
+                Learn More
+
+            </a>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ==================================================
+         FOOTER
+    =================================================== -->
+
+    <footer>
+
+
+        <div class="footer-content">
+
+
+            <h3>
+                🛠️ FreeTools
+            </h3>
+
+
+            <p>
+                Simple. Fast. Free.
+            </p>
+
+
+
+            <div class="footer-links">
+
+
+                <a href="index.html">
+                    Home
+                </a>
+
+
+                <a href="index.html#tools">
+                    Tools
+                </a>
+
+
+                <a href="about.html">
+                    About
+                </a>
+
+
+                <a href="contact.html">
+                    Contact
+                </a>
+
+
+                <a href="privacy.html">
+                    Privacy Policy
+                </a>
+
+
+                <a href="terms.html">
+                    Terms
+                </a>
+
+
+            </div>
+
+
+
+            <p class="copyright">
+                © 2026 FreeTools. All Rights Reserved.
+            </p>
+
+
+        </div>
+
+
+    </footer>
+
+
+
+    <!-- ==================================================
+         TOOL MODAL
+    =================================================== -->
+
+    <div id="toolModal"
+        class="modal">
+
+
+        <div class="modal-content">
+
+
+            <button
+                class="close-button"
+                onclick="closeTool()"
+                aria-label="Close">
+
+                ✕
+
+            </button>
+
+
+            <div id="toolContent">
+
+
+                <h2>
+                    Tool
+                </h2>
+
+
+                <p>
+                    Tool will appear here.
+                </p>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
